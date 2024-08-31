@@ -17,5 +17,16 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/com.beust/jcommander
+    implementation group: 'com.beust', name: 'jcommander', version: '1.82'
+
+    // https://mvnrepository.com/artifact/io.github.openfeign/feign-core
+    implementation group: 'io.github.openfeign', name: 'feign-core', version: '13.3'
+
+    // https://mvnrepository.com/artifact/io.github.openfeign/feign-json
+    implementation group: 'io.github.openfeign', name: 'feign-json', version: '13.3'
+
+
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
